@@ -172,10 +172,16 @@
 }
 
 .recipes__video-capition {
+  display: flex;
+  justify-content: space-between;
+  background-color: #838383;
   font-family: "inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
   margin-top: 24px;
+}
+
+.recipes__time-video {
 }
