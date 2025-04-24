@@ -27,20 +27,26 @@
   <body>
     <div class="page">
       <header class="header">
-        <nav class="logo">
-          <img class="logo__img" src="./images/logo_coffeeshop_dark.svg" />
-          <ul class="logo__nav-links">
-            <li><a class="nav_link" href="#viagem">Viagem</a></li>
-            <li><a class="nav_link" href="# ">Reservar uma mesa</a></li>
-            <li><a class="nav_link" href="#">Contatos</a></li>
+        <nav class="nav">
+          <img
+            class="nav__logo-img"
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="Logo"
+          />
+          <ul class="nav__links">
+            <li><a class="nav__link" href="#recipes">Viagem</a></li>
+            <li>
+              <a class="nav__link" href="#reservation">Reservar uma mesa</a>
+            </li>
+            <li><a class="nav__link" href="#">Contatos</a></li>
           </ul>
         </nav>
-        <div class="header__title">
-          <h1 class="header__title-h1">
-            <span class="header__span-accent">Café especial</span>
-          </h1>
-          <h2 class="header__title-h2">na biblioteca Triple Peaks</h2>
-        </div>
+
+        <h1 class="header__title">
+          <span class="header__span-accent">Café especial</span>
+          na biblioteca Triple Peaks
+        </h1>
+
         <p class="header__description">
           Esta é nossa zona de estudo! Temos aquele cafezinho para energizar
           você e vibrações aconchegantes para soltar a criatividade.
@@ -50,27 +56,27 @@
           src="./images/inside_coffee_shop.png"
           alt="Cafeteria"
         />
-        <div class="header__footer-list">
-          <ul class="header__list">
-            <li class="header__footer">Horários:</li>
-            <li class="header__footer">Segunda a sexta (10:00 – 19:00)</li>
-            <li class="header__footer">Sábado a domingo (11:00 - 18:00)</li>
-          </ul>
+        <div class="header__footer">
+          <div>
+            <p class="header__paragraph">Horários:</p>
+            <p class="header__paragraph">Segunda a sexta (10:00 – 19:00)</p>
+            <p class="header__paragraph">Sábado a domingo (11:00 - 18:00)</p>
+          </div>
           <p class="header__paragraph">
             200 Success Avenue, a cidade de Triple Peaks
           </p>
         </div>
       </header>
       <main class="content">
-        <section class="recipes">
-          <h2 class="recipes__title" id="viagem">Viagem</h2>
+        <section class="recipes" id="#recipes">
+          <h2 class="recipes__title">Viagem</h2>
           <p class="recipes__subtitle">
             Confira algumas receitas que coletamos para seu lanchinho caseiro
           </p>
           <div class="recipes__videos">
             <div class="recipes__box-video">
               <iframe
-                class="recipes__videos"
+                class="recipes__iframe"
                 src="https://www.youtube.com/embed/upxCgYdMINg?si=z1yB52hUo7fRCj6d"
                 title="Paraty- Rio de janeiro-BR"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -84,7 +90,7 @@
             </div>
             <div class="recipes__box-video">
               <iframe
-                class="recipes__videos"
+                class="recipes__iframe"
                 src="https://www.youtube.com/embed/9kUyzAd7Bfk?si=75LH5ciSf7jokjj5"
                 title="Copacabana"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -99,7 +105,7 @@
             </div>
           </div>
         </section>
-        <section class="reservation"></section>
+        <section class="reservation" id="reservation"></section>
       </main>
       <footer class="footer"></footer>
     </div>
