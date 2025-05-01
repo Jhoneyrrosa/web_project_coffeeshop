@@ -71,7 +71,7 @@
         <section class="recipes" id="#recipes">
           <h2 class="recipes__title">Viagem</h2>
           <p class="recipes__subtitle">
-            Confira algumas receitas que coletamos para seu lanchinho caseiro
+            Confira um pouco desse lugar incrível chamado Rio de janeiro-BR
           </p>
           <div class="recipes__videos">
             <div class="recipes__box-video">
@@ -105,7 +105,57 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="reservation"></section>
+        <section class="reservation" id="reservation">
+          <h2 class="reservation__title">Reservar Pacote</h2>
+          <form class="reservation__form">
+            <fieldset class="form__fieldset">
+              <label class="form__label"
+                >Nome *
+                <input
+                  type="text"
+                  class="form__input"
+                  placeholder="Nome"
+                  required
+                />
+              </label>
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label class="form__label"
+                >Números de convidados *
+                <input
+                  type="number"
+                  class="form__input"
+                  placeholder="1-10"
+                  required
+                />
+              </label>
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label class="form__label"
+                >Data e hora *
+                <input type="datetime-local" class="form__input" required />
+              </label>
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label class="form__label"
+                >E-mail *
+                <input
+                  type="email"
+                  class="form__input"
+                  placeholder="E-mail"
+                  required
+                />
+              </label>
+            </fieldset>
+          </form>
+          <button class="form__button form__button--opacity">
+            Reservar Pacote
+          </button>
+          <label class="form__label">
+            <input type="checkbox" required />
+            Eu concordo com os termos de uso
+          </label>
+        </section>
       </main>
       <footer class="footer"></footer>
     </div>
