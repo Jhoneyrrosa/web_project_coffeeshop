@@ -235,7 +235,7 @@
   display: flex;
   justify-content: center;
   margin: 32px auto 32px;
-  color: aliceblue;
+  color: rgb(255, 255, 255);
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -245,6 +245,10 @@
 }
 .form__button--opacity:hover {
   background-color: #838383;
+}
+
+.form__check {
+  margin: 0 35px;
 }
 
 .form__termos {
