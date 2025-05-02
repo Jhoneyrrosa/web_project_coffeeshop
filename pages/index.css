@@ -189,14 +189,14 @@
   font-size: 44px;
   line-height: 52px;
   max-width: 385px;
-  margin-top: 100px;
+  margin: 0 auto 80px;
   display: flex;
   justify-content: center;
 }
 
 .reservation__form {
   max-width: 385px;
-  margin-top: 80px;
+  width: 100%;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -207,7 +207,8 @@
 .form__fieldset {
   display: flex;
   justify-content: center;
-  margin: auto;
+  margin: 0 0 32px 0;
+  padding: 0;
   border: none;
 }
 
@@ -244,13 +245,19 @@
   line-height: 20px;
   align-items: center;
 }
-.form__button--opacity:hover {
-  background-color: #838383;
+.form__button:hover {
+  background-color: #7f8389;
 }
 
 .form__check {
   margin: 0 35px;
   border-radius: 2px;
+}
+
+.form__label-check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .form__termos {
@@ -259,4 +266,6 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  width: 20px;
+  height: 20px;
 }
