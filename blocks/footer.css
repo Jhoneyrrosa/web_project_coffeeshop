@@ -1,0 +1,11 @@
+.footer {
+  background-color: #0a2850;
+  position: relative;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 80px;
+  padding-top: 60px;
+}
