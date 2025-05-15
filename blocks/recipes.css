@@ -32,16 +32,17 @@
 .recipes__videos {
   display: flex;
   gap: 40px;
-  margin: 30px auto;
+  margin: 36px auto;
 }
-.recipes__videos {
-  width: 480px;
+.recipes__video {
+  width: 680px;
   height: 273px;
   display: flex;
   justify-content: center;
 }
 
 .recipes__video-capition {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   font-family: "Inter", Arial, sans-serif;
